@@ -25,6 +25,6 @@
     $nome = trim($_POST['nome']);
     echo "Seja bem-vindo, $nome!";
 } else{
-    echo "Por favor, insira seu nome";
+    echo "Por favor, insira seu nome!";
 }
 ?>
