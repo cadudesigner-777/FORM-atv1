@@ -4,7 +4,10 @@
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
 $nome = $_POST['nome'];
 $idade = $_POST['idade'];
-$nota = $_POST['nota'];
+$nota1 = $_POST['nota1'];
+$nota2 = $_POST['nota2'];
+
+$media = ($nota1 + $nota2) / 2;
 
 
 if($nota  > 7){
@@ -19,9 +22,8 @@ echo "<h3>Resultado da avaliação</h3> <br>";
 
 echo "Nome: $nome <br>";
 echo "Idade: $idade <br>";
-echo "Nota: $nota <br>";
+echo "Media: $media <br>";
 echo "Situação: $situacao <br>";
-
 }
 
 ?>
