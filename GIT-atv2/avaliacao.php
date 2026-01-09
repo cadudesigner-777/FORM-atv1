@@ -15,7 +15,7 @@ if($nota  > 7){
     $situacao = "Reprovado";
 }
 
-echo "<h3>Resultado</h3> <br>";
+echo "<h3>Resultado da avaliação</h3> <br>";
 
 echo "Nome: $nome <br>";
 echo "Idade: $idade <br>";
