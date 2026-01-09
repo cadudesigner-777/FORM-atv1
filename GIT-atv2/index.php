@@ -14,10 +14,10 @@
         <input type="text" id="idade" name="idade" placeholder= "Didite sua idade" >
         <br>
         <label for="nome">Nota 1:</label><br>
-        <input type="number" id="nota1" name="nota2" placeholder= "Didite sua nota" min="0" max="10" >
+        <input type="number" id="nota1" name="nota1" placeholder= "Didite sua nota" min="0" max="10" >
         <br>
         <label for="nome">Nota 2:</label><br>
-        <input type="number" id="nota2" name="nota3" placeholder= "Didite sua nota" min="0" max="10" >
+        <input type="number" id="nota2" name="nota2" placeholder= "Didite sua nota" min="0" max="10" >
         <br>
         <button type="submit">Enviar</button>
     </form>
