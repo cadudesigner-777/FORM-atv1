@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="resultado.php" method="post" class="form-nome">
+    <form action="avaliacao.php" method="post" class="form-nome">
         <label for="nome">Nome:</label><br>
         <input type="text" id="nome" name="nome" placeholder= "Didite seu nome" >
         <br>
